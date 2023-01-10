@@ -1,0 +1,26 @@
+.app-container{
+    background-color: yellow;
+    /* height: 100vh; */
+    width: 70vw;
+    margin: auto;
+    
+}
+.app-cards{
+    height: 83.5vh;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.app-cards::-webkit-scrollbar {
+  display: none;
+}
+  
+.app-cards {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
